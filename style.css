@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  width: 1440px;
+  height: 1080px;
+  padding: 219px 256px 220px 256px;
+  justify-content: center;
+  align-items: center;
+  background: var(--Pale-Navy, #36384d);
+}
+section {
+  margin: auto;
+  max-width: 928px;
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 928px;
+  height: 641px;
+  border-radius: 36px;
+  background: #fff;
+  box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+}
+.box1 {
+  width: 376px;
+  height: 446px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.heading1 {
+  color: var(--Dark-Navy, #242742);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.paragraph1 {
+  width: 376px;
+  color: var(--Dark-Navy, #242742);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.checkbox1 {
+  display: flex;
+  gap: 16px;
+  gap: 10px;
+}
+.paragraph2 {
+  width: 339px;
+  color: var(--Dark-Navy, #242742);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.paragraph3 {
+  color: var(--Dark-Navy, #242742);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.e-mail {
+  width: 376px;
+  height: 56px;
+  color: var(--Dark-Navy, #242742);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  border-radius: 10px;
+}
+.button1 {
+  width: 376px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--Dark-Navy, #242742);
+  color: var(--White, #fff);
+  border: none;
+}
+.button1:hover {
+  border-radius: 8px;
+  background: var(
+    --Gradient-1,
+    linear-gradient(204deg, #ff6a3a 0%, #ff527b 100%)
+  );
+  box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.5);
+  transition: 1s;
+}
+.bttn {
+  color: var(--White, #fff);
+  text-decoration: none;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.form-box {
+  flex-direction: column;
+  display: flex;
+  gap: 25px;
+}
+@media (max-width: 950px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+}
