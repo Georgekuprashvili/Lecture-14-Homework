@@ -83,8 +83,7 @@ section {
   border-radius: 10px;
 }
 .e-mail:focus {
-  background-color: #FF6155;
-  
+  background-color: #ff6155;
 }
 .button1 {
   width: 376px;
