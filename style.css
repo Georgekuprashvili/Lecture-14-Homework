@@ -82,6 +82,10 @@ section {
   line-height: 150%;
   border-radius: 10px;
 }
+.e-mail:focus {
+  background-color: #FF6155;
+  
+}
 .button1 {
   width: 376px;
   height: 56px;
