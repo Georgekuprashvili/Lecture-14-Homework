@@ -14,7 +14,7 @@ if (NN > 50 && NN < 100) {
 }
 
 let CC = 2;
-if ((CC === 0, CC < 0)) {
+if (CC === 0 && CC < 0) {
   console.log("უდრის ნოლს ან ნაკლებია ნოლზე");
 } else {
   console.log("მეტია ნულზე");
