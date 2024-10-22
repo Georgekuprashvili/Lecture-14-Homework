@@ -64,6 +64,11 @@ section {
   font-weight: 400;
   line-height: 150%;
 }
+.emailbox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
 .paragraph3 {
   color: var(--Dark-Navy, #242742);
@@ -81,9 +86,20 @@ section {
   font-weight: 400;
   line-height: 150%;
   border-radius: 10px;
+  padding: 10px;
 }
 .e-mail:focus {
   background-color: #ff6155;
+}
+.warning-text {
+  display: none;
+  color: red;
+}
+.e-mail:focus + .warning-text {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .button1 {
   width: 376px;
@@ -123,10 +139,23 @@ section {
   max-width: 400px;
   width: 100%;
 }
+.photo2 {
+  display: none;
+}
+
 @media (max-width: 950px) {
   .container {
     height: auto;
     flex-direction: column-reverse;
     border-radius: 0;
+    padding-bottom: 40px;
+    gap: 40px;
+  }
+  .photo1 {
+    display: none;
+  }
+  .photo2 {
+    width: 100%;
+    display: block;
   }
 }

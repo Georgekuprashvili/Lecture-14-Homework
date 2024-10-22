@@ -17,7 +17,7 @@ section {
   max-width: 504px;
 }
 .container {
-  width: 504px;
+  max-width: 504px;
   height: 520px;
   border-radius: 36px;
   background: #fff;
@@ -25,16 +25,17 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 32px;
 }
 .box1 {
-  width: 376px;
+  max-width: 376px;
   height: 408px;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 .heading1 {
-  width: 376px;
+  max-width: 376px;
   color: var(--Dark-Navy, #242742);
   font-family: Roboto;
   font-size: 56px;
@@ -59,7 +60,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 376px;
+  max-width: 376px;
   height: 56px;
   border-radius: 8px;
   background: var(--Dark-Navy, #242742);
@@ -82,10 +83,4 @@ section {
   font-weight: 700;
   line-height: 150%;
   text-decoration: none;
-}
-@media (max-width: 505px) {
-  .container {
-    width: 375px;
-    height: 812px;
-  }
 }
